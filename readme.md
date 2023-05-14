@@ -137,9 +137,9 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 # 14th step 
-### in these step we move the file in stage area.
+### in these step we move the file in stage area(particular or onr file). 
 ```
-git restore readme.md
+git restore readme.md  
 ```
 
 # output:-
@@ -276,3 +276,36 @@ Date:   Sun May 14 15:41:17 2023 +0530
 
     first commit of commit
 </pre>
+
+
+# 18th-step(git reset)
+## these command goto all file in unstge area
+
+```
+$ git reset
+```
+# output:-
+<pre>
+Unstaged changes after reset:
+M       readme.md
+</pre>
+
+### note :- all file in unstaged area.
+
+<pre>
+shubham@shubham-Latitude-7480:~/git_practice$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+</pre>
+
+# 19th-step(reset hard) 
+## reset --hard  it totally chanege the local area and clean the changes from workspace  it remove from  workspace and stageing area.
+```
+$ git reset -hard
+```
+  
