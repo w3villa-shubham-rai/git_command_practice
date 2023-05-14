@@ -2,7 +2,7 @@
 ```
 mkdir git_practice
 ```
-# 2nd-step (we run cmd ls which show all directorie)
+# 2nd-step (we run cmd ls which show all directory)
 ```
 Android  AndroidStudioProjects  Desktop  Documents  Downloads  git_practice  Music  Pictures  Public  snap  Templates  Videos
 ```
@@ -62,7 +62,7 @@ this above message show our index.html and readme.md file which are not added wi
 
 # 8th step
 ## run command  git add . or git add index.html
-### now all file goto staging area or we can individual add file in staging area.
+### now all file goto staging area or we can individual add file in stageing area.
 
 # 9th-step
 ## again we check the staus 
@@ -118,7 +118,7 @@ origin  git@github.com:w3villa-shubham-rai/git_command_practice.git (fetch)
 origin  git@github.com:w3villa-shubham-rai/git_command_practice.git (push)
 </pre>
 
-# 13th-step (in this step above file already in stageing area but we move the file in un satage area)
+# 13th-step (in this step above file already in stageing area but we move the file in un stage area)
 
 ### check the status
 ```
