@@ -304,8 +304,25 @@ no changes added to commit (use "git add" and/or "git commit -a")
 </pre>
 
 # 19th-step(reset hard) 
-## reset --hard  it totally chanege the local area and clean the changes from workspace  it remove from  workspace and stageing area.
+## reset --hard  it totally chanege the local area and clean the changes from workspace  it remove from  workspace and stageing  thearea.
 ```
-$ git reset -hard
+$ git reset -hard;
 ```
-  git@github.com:w3villa-shubham-rai/git_command_practice.git
+# 20th-step  (force flag )
+### note:- not work git push command than we use below command 
+```
+git push --force
+```
+# output:-
+
+<pre>
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 3.28 KiB | 1.64 MiB/s, done.
+Total 13 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To github.com:w3villa-shubham-rai/git_command_practice.git
+ + 82fa0c1...957e717 master -> master (forced update)
+</pre>
