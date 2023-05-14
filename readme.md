@@ -1,8 +1,8 @@
-# first step we create the directory 
+# 1st-step we create the directory 
 ```
 mkdir git_practice
 ```
-# and secand step we run cmd ls which show all directorie
+# 2ndstep (we run cmd ls which show all directorie)
 ```
 Android  AndroidStudioProjects  Desktop  Documents  Downloads  git_practice  Music  Pictures  Public  snap  Templates  Videos
 ```
