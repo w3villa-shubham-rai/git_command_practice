@@ -2,7 +2,7 @@
 ```
 mkdir git_practice
 ```
-# 2ndstep (we run cmd ls which show all directorie)
+# 2nd-step (we run cmd ls which show all directorie)
 ```
 Android  AndroidStudioProjects  Desktop  Documents  Downloads  git_practice  Music  Pictures  Public  snap  Templates  Videos
 ```
@@ -64,7 +64,7 @@ this above message show our index.html and readme.md file which are not added wi
 ## run command  git add . or git add index.html
 ### now all file goto staging area or we can individual add file in staging area.
 
-# 9th step
+# 9th-step
 ## again we check the staus 
 # output :-
 ```
@@ -118,7 +118,7 @@ origin  git@github.com:w3villa-shubham-rai/git_command_practice.git (fetch)
 origin  git@github.com:w3villa-shubham-rai/git_command_practice.git (push)
 </pre>
 
-# 13th step (in this step above file already in stageing area but we move the file in un satage area)
+# 13th-step (in this step above file already in stageing area but we move the file in un satage area)
 
 ### check the status
 ```
@@ -136,7 +136,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 </pre>
 
 
-# 14th step 
+# 14th-step 
 ### in these step we move the file in stage area(particular or onr file). 
 ```
 git restore readme.md  
@@ -308,7 +308,14 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 $ git reset -hard;
 ```
-# 20th-step  (force flag )
+# 20th-step 
+## when we push the code then we find below error
+# output:-
+<pre>
+bham@shubham-Latitude-7480:~/git_practice$ git push To github.com:w3villa-shubham-rai/git_command_practice.git ! [rejected] master -> master (non-fast-forward) error: failed to push some refs to 'github.com:w3villa-shubham-rai/git_command_practice.git' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+</pre>
+
+# 21th-step  (force flag )
 ### note:- not work git push command than we use below command 
 ```
 git push --force
